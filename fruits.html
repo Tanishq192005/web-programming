@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .gallery-item {
+            position: relative;
+        }
+        .caption {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align:center; padding: 20px;">Fruit Image Gallery</h1>
+
+    <div class="gallery">
+        <div class="gallery-item"><img src="fruit1.jpg" alt="Apple"><div class="caption">Apple</div></div>
+        <div class="gallery-item"><img src="fruit2.jpg" alt="Banana"><div class="caption">Banana</div></div>
+        <div class="gallery-item"><img src="fruit3.jpg" alt="Cherry"><div class="caption">Cherry</div></div>
+        <div class="gallery-item"><img src="fruit4.jpg" alt="Date"><div class="caption">Date</div></div>
+        <div class="gallery-item"><img src="fruit5.jpg" alt="Elderberry"><div class="caption">Elderberry</div></div>
+        <div class="gallery-item"><img src="fruit6.jpg" alt="Fig"><div class="caption">Fig</div></div>
+        <div class="gallery-item"><img src="fruit7.jpg" alt="Grape"><div class="caption">Grape</div></div>
+        <div class="gallery-item"><img src="fruit8.jpg" alt="Honeydew"><div class="caption">Honeydew</div></div>
+        <div class="gallery-item"><img src="fruit9.jpg" alt="Indian Fig"><div class="caption">Indian Fig</div></div>
+        <div class="gallery-item"><img src="fruit10.jpg" alt="Jackfruit"><div class="caption">Jackfruit</div></div>
+        <div class="gallery-item"><img src="fruit11.jpg" alt="Kiwi"><div class="caption">Kiwi</div></div>
+        <div class="gallery-item"><img src="fruit12.jpg" alt="Lemon"><div class="caption">Lemon</div></div>
+        <div class="gallery-item"><img src="fruit13.jpg" alt="Mango"><div class="caption">Mango</div></div>
+        <div class="gallery-item"><img src="fruit14.jpg" alt="Nectarine"><div class="caption">Nectarine</div></div>
+        <div class="gallery-item"><img src="fruit15.jpg" alt="Orange"><div class="caption">Orange</div></div>
+        <div class="gallery-item"><img src="fruit16.jpg" alt="Papaya"><div class="caption">Papaya</div></div>
+        <div class="gallery-item"><img src="fruit17.jpg" alt="Peach"><div class="caption">Peach</div></div>
+        <div class="gallery-item"><img src="fruit18.jpg" alt="Pear"><div class="caption">Pear</div></div>
+        <div class="gallery-item"><img src="fruit19.jpg" alt="Pineapple"><div class="caption">Pineapple</div></div>
+        <div class="gallery-item"><img src="fruit20.jpg" alt="Plum"><div class="caption">Plum</div></div>
+            </div>
+
+</body>
+</html>
